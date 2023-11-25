@@ -6,7 +6,10 @@ author 'ilAn#7021'
 
 lua54 'yes'
 
-shared_script 'sh_config.lua'
+shared_script {
+  'sh_config.lua',
+  '@es_extended/imports.lua'
+}
 
 client_scripts {'client/cl_rpc.lua', 'client/cl_*.lua'}
 

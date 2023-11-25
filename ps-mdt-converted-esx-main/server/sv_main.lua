@@ -1,5 +1,4 @@
 local QBCore = nil
-local ESX = nil
 local MDTDispatchData = {}
 local AttachedUnits = {}
 local calls = 0

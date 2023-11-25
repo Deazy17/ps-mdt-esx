@@ -1,7 +1,6 @@
 local isOpen = false
 local callSign = ""
 local QBCore = nil
-local ESX = nil
 
 local ColorNames = {
     [0] = "Metallic Black",
